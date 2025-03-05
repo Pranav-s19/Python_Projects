@@ -70,8 +70,31 @@ print(type(age))
 
 #input() - A function that prompts the user to enter data Returns the entered data as a string.
 
-name = input("What is your name? : ")
+name = str(input("What is your name? : "))
 age = int(input("How old are you? : "))
 
 print(f"Hello, {name}")
 print(f"You are {age} years old!!")
+
+
+#--------------------------------------------------------------------
+
+# Excercise 1- Area of rectangle
+
+length = float(input("Length of rectangle : "))
+breadth = float(input("Enter breadth : "))
+
+area = length * breadth
+print(f"Area of rectangle : {area} cm.sq")
+
+#--------------------------------------------------------------------
+
+# Excercise 2- Shopping cart program
+
+item = input("Enter your item name : ")
+quantity = int(input("No. of items : "))
+price = float(input("Enter the price : "))
+
+print(f"Your Order is : {item}/s x {quantity}")
+total = quantity * price
+print(f"Total amount to pay : ${total} !!")
