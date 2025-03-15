@@ -1,0 +1,1 @@
+    print("The outdoor event is still scheduled")
